@@ -5,8 +5,6 @@ import MeetupDetails from "../../components/meetups/MeetupDetails";
 import Head from "next/head";
 
 export default function MeetupDetail(props) {
-  const router = useRouter();
-
   return (
     <>
       <Head>
